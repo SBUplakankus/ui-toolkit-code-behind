@@ -1,7 +1,10 @@
-# UITK.CodeBehind
+<p align="center">
+  <img src="https://shieldcn.dev/badge/Unity-6000.4.8f1-ececec.png?variant=outline&logo=unity" alt="Unity">
+  <img src="https://shieldcn.dev/badge/C%23-9.0-239120.png?variant=outline&logo=csharp" alt="C#">
+  <img src="https://shieldcn.dev/badge/UPM-package-2196F3.png?variant=outline&logo=unity" alt="UPM">
+</p>
 
-![Unity](https://shieldcn.dev/badge/Unity-6000.4.8f1-ececec.png?variant=outline&logo=unity)
-![C](https://shieldcn.dev/badge/C%23-9.0-239120.png?variant=outline&logo=csharp)
+# UITK.CodeBehind
 
 Code-behind API + UXML-driven codegen for Unity UI Toolkit. Replaces hand-rolled element queries, factory classes, and manual cleanup with convention-based partial classes.
 
@@ -32,7 +35,7 @@ public sealed partial class MainMenuView : CodeBehindView
 In `Packages/manifest.json`:
 
 ```json
-"com.yourname.uitk-codebehind": "https://github.com/yourname/ui-toolkit-code-behind.git"
+"com.yourname.uitk-codebehind": "https://github.com/SBUplakankus/uitk-codebehind.git"
 ```
 
 Or local path:
