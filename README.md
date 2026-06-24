@@ -39,7 +39,7 @@ public sealed partial class MainMenuView : CodeBehindView
 In `Packages/manifest.json`:
 
 ```json
-"com.yourname.uitk-codebehind": "https://github.com/SBUplakankus/uitk-codebehind.git"
+"com.yourname.uitk-codebehind": "https://github.com/SBUplakankus/ui-toolkit-code-behind.git"
 ```
 
 Or local path:
