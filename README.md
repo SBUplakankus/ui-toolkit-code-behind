@@ -1,12 +1,16 @@
-<p align="center">
-  <img src="https://shieldcn.dev/badge/Unity-6000.4.8f1-ececec.png?variant=outline&logo=unity" alt="Unity">
-  <img src="https://shieldcn.dev/badge/C%23-9.0-239120.png?variant=outline&logo=csharp" alt="C#">
-  <img src="https://shieldcn.dev/badge/UPM-package-2196F3.png?variant=outline&logo=unity" alt="UPM">
-</p>
+<div align="center">
+  
+# UI Toolkit Code Behind
 
-# UITK.CodeBehind
+<img src="https://shieldcn.dev/badge/Unity-6000.4.8f1-ececec.png?variant=outline&logo=unity" alt="Unity">
+<img src="https://shieldcn.dev/badge/C%23-9.0-239120.png?variant=outline&logo=csharp" alt="C#">
+<img src="https://shieldcn.dev/badge/UPM-package-2196F3.png?variant=outline&logo=unity" alt="UPM">
+<br>
 
 Code-behind API + UXML-driven codegen for Unity UI Toolkit. Replaces hand-rolled element queries, factory classes, and manual cleanup with convention-based partial classes.
+</div>
+
+
 
 ## Quick start
 
