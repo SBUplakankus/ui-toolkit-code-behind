@@ -1,5 +1,5 @@
 {
-  "name": "com.yourname.uitk-codebehind",
+  "name": "com.sbuplakankus.uitk-codebehind",
   "version": "0.1.0",
   "displayName": "UI Toolkit Code-Behind",
   "description": "Code-behind API + UXML-driven codegen that replaces hand-rolled UI Toolkit plumbing with convention-based partial classes.",

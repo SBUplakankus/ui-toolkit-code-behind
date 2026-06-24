@@ -1,6 +1,6 @@
 # AGENTS.md
 
-`com.yourname.uitk-codebehind` — a UPM package providing a code-behind API + UXML-driven codegen for Unity UI Toolkit. Targets Unity 6000.4.8f1 (C# 9, .NET Standard 2.1).
+`com.sbuplakankus.uitk-codebehind` — a UPM package providing a code-behind API + UXML-driven codegen for Unity UI Toolkit. Targets Unity 6000.4.8f1 (C# 9, .NET Standard 2.1).
 
 ## Repo structure
 
@@ -61,7 +61,7 @@ All auto-unbind on `Deactivate()`. See `CodeBehindView.Events.cs` and `CodeBehin
 
 In `Packages/manifest.json`:
 ```json
-"com.yourname.uitk-codebehind": "file:../../path/to/ui-toolkit-code-behind"
+"com.sbuplakankus.uitk-codebehind": "file:../../path/to/ui-toolkit-code-behind"
 ```
 
 ## Sample
