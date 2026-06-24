@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="textinputs-root" class="view-root">
+        <ui:TextField label="Name" name="demo-text" placeholder-text="Enter text"/>
+        <ui:DropdownField label="Option" name="demo-dropdown"/>
+        <ui:EnumField label="Alignment" name="demo-enum" type="UnityEngine.TextAlignment, UnityEngine.TextRenderingModule"/>
+    </ui:VisualElement>
+</ui:UXML>

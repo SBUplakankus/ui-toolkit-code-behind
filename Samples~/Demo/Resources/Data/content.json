@@ -1,0 +1,44 @@
+{
+  "messagesOfTheDay": [
+    "Welcome to the demo. All systems operational.",
+    "UI Toolkit Code-Behind API is active.",
+    "Try navigating between screens and modals.",
+    "Check the test views for all supported element types.",
+    "This sample demonstrates the full API surface.",
+    "Use Tools/Code Behind/Regenerate to refresh generated files.",
+    "Add a new view with Tools/Code Behind/New View.",
+    "All subscription helpers auto-unbind on Deactivate().",
+    "The scanner auto-discovers templates from UI Toolkit/Templates/.",
+    "Generated fields use PascalCase of the UXML name attribute."
+  ],
+  "missions": [
+    { "name": "Mission1", "title": "First Contact", "description": "Begin the adventure. Learn the basics and get started." },
+    { "name": "Mission2", "title": "The Crossing", "description": "Traverse uncharted territory and discover new allies." },
+    { "name": "Mission3", "title": "Deep Dive", "description": "Descend into the unknown. Danger lurks beneath." },
+    { "name": "Mission4", "title": "Breaking Through", "description": "Push past enemy lines and secure the objective." },
+    { "name": "Mission5", "title": "Last Stand", "description": "Hold the line against overwhelming odds." },
+    { "name": "Mission6", "title": "The Descent", "description": "Venture deeper into hostile territory." },
+    { "name": "Mission7", "title": "Counterstrike", "description": "Turn the tide and push back the opposition." },
+    { "name": "Mission8", "title": "Dark Horizon", "description": "Face the unknown in the shadow of war." },
+    { "name": "Mission9", "title": "Iron Will", "description": "Endurance is the key. Survive and advance." },
+    { "name": "Mission10", "title": "Final Countdown", "description": "The final objective is within reach." },
+    { "name": "Mission11", "title": "Ghost Protocol", "description": "Stealth is paramount. Move in silence." },
+    { "name": "Mission12", "title": "Thunder Run", "description": "Full speed ahead. No hesitation." },
+    { "name": "Mission13", "title": "Zero Hour", "description": "The clock is ticking. Every second counts." },
+    { "name": "Mission14", "title": "Blindside", "description": "Expect the unexpected. Trust your instincts." },
+    { "name": "Mission15", "title": "Endgame", "description": "Everything comes down to this. Make it count." }
+  ],
+  "difficulties": [
+    { "name": "Recruit", "description": "A relaxed experience. Enemies are less aggressive and deal reduced damage." },
+    { "name": "Regular", "description": "A balanced challenge. Enemies are tactical and deadly." },
+    { "name": "Hardened", "description": "Enemies are aggressive and accurate. Only the strong survive." },
+    { "name": "Veteran", "description": "The ultimate test. Enemies are relentless and lethal." }
+  ],
+  "options": {
+    "inversion": ["Off", "On"],
+    "stickLayout": ["Default", "Southpaw", "Legacy", "Legacy Southpaw"],
+    "buttonLayout": ["Default", "Southpaw", "Legacy", "Legacy Southpaw"],
+    "sensitivity": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"],
+    "targetAssist": ["Off", "On"]
+  }
+}

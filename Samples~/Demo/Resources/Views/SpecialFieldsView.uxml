@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="special-root" class="view-root">
+        <ui:Hash128Field label="Hash128" name="demo-hash128"/>
+        <ui:ProgressBar title="Loading" name="demo-progress" value="50"/>
+    </ui:VisualElement>
+</ui:UXML>

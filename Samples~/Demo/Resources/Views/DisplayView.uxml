@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="display-root" class="view-root">
+        <ui:Label text="Hello World" name="demo-lbl"/>
+        <ui:Image name="demo-img"/>
+    </ui:VisualElement>
+</ui:UXML>

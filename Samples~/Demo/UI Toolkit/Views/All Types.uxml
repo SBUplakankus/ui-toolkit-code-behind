@@ -1,0 +1,43 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Label text="Label"/>
+    <ui:Scroller high-value="100" direction="Horizontal" value="42"/>
+    <ui:VisualElement style="flex-grow: 1;">
+        <ui:TextField label="Text Field" placeholder-text="filler text"/>
+        <ui:ToggleButtonGroup label="Toggle Button Group"/>
+        <ui:RadioButtonGroup label="Radio Button Group"/>
+        <ui:UnsignedIntegerField label="Unsigned Integer Field" value="42"/>
+        <ui:UnsignedLongField label="Unsigned Long Field" value="42"/>
+        <ui:TabView/>
+        <ui:BoundsField label="Bounds"/>
+        <ui:RectField label="Rect"/>
+        <ui:BoundsIntField label="BoundsInt"/>
+        <ui:RectIntField label="RectInt"/>
+        <ui:Vector3IntField label="Vector3Int"/>
+        <ui:Vector2IntField label="Vector2Int"/>
+        <ui:Vector4Field label="Vec4 Field"/>
+        <ui:Vector3Field label="Vec3 Field"/>
+        <ui:Tab label="Tab"/>
+        <ui:Vector2Field label="Vec2 Field"/>
+        <ui:Hash128Field label="Hash128 Field" value="885eea9fcca73bdadde4ecd6a3af1312"/>
+        <ui:DoubleField label="Double Field" value="42.2"/>
+        <ui:LongField label="Long Field" value="42"/>
+        <ui:FloatField label="Float Field" value="42.2"/>
+        <ui:IntegerField label="Integer Field" value="42"/>
+        <ui:ProgressBar value="22" title="my-progress"/>
+        <ui:RadioButton label="Radio Button"/>
+        <ui:EnumField label="Enum" value="Center" type="UnityEngine.TextAlignment, UnityEngine.TextRenderingModule"/>
+        <ui:DropdownField label="Dropdown"/>
+        <ui:Toggle label="Toggle"/>
+        <ui:MinMaxSlider label="Min/Max Slider" value="10,12" low-limit="-10" high-limit="40"/>
+        <ui:Button text="Button"/>
+        <ui:Image/>
+        <ui:SliderInt label="SliderInt" value="42" high-value="100"/>
+        <ui:Slider label="Slider" value="42" high-value="100"/>
+        <ui:MultiColumnTreeView columns="" sort-column-descriptions=""/>
+        <ui:MultiColumnListView columns="" sort-column-descriptions=""/>
+        <ui:TreeView/>
+        <ui:ListView/>
+        <ui:ScrollView/>
+        <ui:Foldout text="Foldout"/>
+    </ui:VisualElement>
+</ui:UXML>

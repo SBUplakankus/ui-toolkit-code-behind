@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="toggles-root" class="view-root">
+        <ui:Toggle label="Enable" name="demo-toggle"/>
+        <ui:RadioButton label="Option A" name="demo-radio"/>
+        <ui:RadioButtonGroup label="Choose" name="demo-radio-group"/>
+        <ui:Foldout text="Details" name="demo-foldout"/>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,42 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/Styles/core.uss?fileID=7433441132597879392&amp;guid=7ddee200e3647634fad40c422ee9bf29&amp;type=3#core"/>
+    <Style src="project://database/Assets/UI%20Toolkit/Styles/screens.uss?fileID=7433441132597879392&amp;guid=1f8ac92c17485ff4fa150022e05ca083&amp;type=3#screens"/>
+    <Style src="project://database/Assets/UI%20Toolkit/Styles/modals.uss?fileID=7433441132597879392&amp;guid=13ed200b9245c324893cab4d56685f0b&amp;type=3#modals"/>
+    <ui:VisualElement name="video-bg" class="fill-absolute" style="background-image: url(&quot;project://database/Assets/Art/Render%20Textures/Menu_BG.renderTexture?fileID=8400000&amp;guid=1665eca1802e1bd48b47572cb948498c&amp;type=2#Menu_BG&quot;); background-color: rgba(90, 115, 106, 0); -unity-background-image-tint-color: rgb(107, 127, 120); display: flex;">
+        <ui:VisualElement name="video-bg" style="flex-grow: 1;"/>
+        <ui:VisualElement name="left-vig" class="vignette-side vignette-side--left"/>
+        <ui:VisualElement name="right-vig" class="vignette-side vignette-side--right"/>
+    </ui:VisualElement>
+    <ui:VisualElement name="root-ctr" class="view-ctr">
+        <ui:VisualElement name="hdr-ctr" class="font-arsenal-bold header-bar">
+            <ui:VisualElement name="info-ctr" class="info-bar" style="padding-left: 10.5%;">
+                <ui:VisualElement name="title-ctr" class="title-ctr">
+                    <ui:Label text="MAIN MENU" double-click-selects-word="false" name="hdr-title" class="font-arsenal-bold text-shadow-dark header-title"/>
+                </ui:VisualElement>
+                <ui:VisualElement name="user-ctr" class="user-ctr">
+                    <ui:Label text="Signed In: Uplakankus" double-click-selects-word="false" name="username" class="font-arsenal-bold text-shadow-dark username-label"/>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="screen-view-ctr" class="font-dmsans-thin main-ctr screen-view-ctr"/>
+        <ui:VisualElement name="ftr-ctr" class="footer-bar">
+            <ui:VisualElement name="ftr-content" class="ftr-content">
+                <ui:Button text="Back" name="back-btn" class="ftr-btn font-archivo-semibold audio--hover audio--click" style="-unity-font-definition: url(&quot;project://database/Assets/Fonts/Archivo/static/Archivo-SemiBold.ttf?fileID=12800000&amp;guid=71cfd6c208cff9a4986a5d7469330800&amp;type=3#Archivo-SemiBold&quot;);"/>
+                <ui:Label text="V1.0.8" name="version" class="version-label"/>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="modal-ctr" picking-mode="Ignore" class="modal-ctr" style="display: flex;">
+            <ui:VisualElement name="modal-bg" class="fill-absolute modal-bg"/>
+            <ui:VisualElement name="modal-body" class="modal-body">
+                <ui:VisualElement name="modal-hdr" class="modal-hdr">
+                    <ui:Label text="NEW GAME" name="modal-hdr-lbl" class="header-title font-arsenal-bold text-shadow-dark"/>
+                </ui:VisualElement>
+                <ui:VisualElement name="modal-view-ctr" class="modal-view-ctr"/>
+            </ui:VisualElement>
+            <ui:VisualElement name="modal-vig-ctr" picking-mode="Ignore" class="fill-absolute modal-vig-ctr">
+                <ui:VisualElement name="left-vig" class="vignette-side vignette-side--left"/>
+                <ui:VisualElement name="right-vig" class="vignette-side vignette-side--right"/>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

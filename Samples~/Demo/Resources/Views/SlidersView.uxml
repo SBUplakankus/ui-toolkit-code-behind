@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="sliders-root" class="view-root">
+        <ui:Slider label="Volume" name="demo-slider" high-value="100"/>
+        <ui:SliderInt label="Level" name="demo-sliderint" high-value="10"/>
+        <ui:MinMaxSlider label="Range" name="demo-minmax" low-limit="0" high-limit="100"/>
+        <ui:Scroller name="demo-scroller" high-value="100" value="50"/>
+    </ui:VisualElement>
+</ui:UXML>

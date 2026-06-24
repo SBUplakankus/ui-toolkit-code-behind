@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="numeric-root" class="view-root">
+        <ui:IntegerField label="Int" name="demo-int" value="42"/>
+        <ui:LongField label="Long" name="demo-long" value="42"/>
+        <ui:FloatField label="Float" name="demo-float" value="42.5"/>
+        <ui:DoubleField label="Double" name="demo-double" value="42.5"/>
+        <ui:UnsignedIntegerField label="UInt" name="demo-uint" value="42"/>
+        <ui:UnsignedLongField label="ULong" name="demo-ulong" value="42"/>
+    </ui:VisualElement>
+</ui:UXML>

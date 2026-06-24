@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="vector-root" class="view-root">
+        <ui:Vector2Field label="Vec2" name="demo-vec2"/>
+        <ui:Vector3Field label="Vec3" name="demo-vec3"/>
+        <ui:Vector4Field label="Vec4" name="demo-vec4"/>
+        <ui:Vector2IntField label="Vec2Int" name="demo-vec2int"/>
+        <ui:Vector3IntField label="Vec3Int" name="demo-vec3int"/>
+    </ui:VisualElement>
+</ui:UXML>

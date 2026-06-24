@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="rect-root" class="view-root">
+        <ui:RectField label="Rect" name="demo-rect"/>
+        <ui:RectIntField label="RectInt" name="demo-rectint"/>
+        <ui:BoundsField label="Bounds" name="demo-bounds"/>
+        <ui:BoundsIntField label="BoundsInt" name="demo-boundsint"/>
+    </ui:VisualElement>
+</ui:UXML>

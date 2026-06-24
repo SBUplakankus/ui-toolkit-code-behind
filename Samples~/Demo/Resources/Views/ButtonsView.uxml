@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="buttons-root" class="view-root">
+        <ui:Button text="Click Me" name="demo-btn"/>
+        <ui:TabView name="demo-tabview">
+            <ui:Tab name="demo-tab" label="Tab One"/>
+            <ui:Tab name="demo-tab2" label="Tab Two"/>
+        </ui:TabView>
+        <ui:Foldout text="Expand Me" name="demo-foldout"/>
+        <ui:ToggleButtonGroup label="Toggle Group" name="demo-toggle-group"/>
+        <ui:VisualElement name="demo-list-ctr" class="demo-section"/>
+    </ui:VisualElement>
+</ui:UXML>
